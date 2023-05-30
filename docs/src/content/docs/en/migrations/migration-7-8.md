@@ -34,7 +34,7 @@ const editor = new Editor();
 editor.update.subscribe(() => {});
 ```
 
-#### Make sure to call editor.destory manually during onDestory.
+#### Make sure to call editor.destory manually during onDestroy.
 
 ```ts
 class AppComponent implements OnInit, OnDestroy {
